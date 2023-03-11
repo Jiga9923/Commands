@@ -14,3 +14,6 @@ Git process - working directory >>Add>> Staging >>commit>> repository
 7. git log // List the status of all the commit
 
 8. git add . // Adds all the files in the directory to the staging area
+
+9. git checkout "Hash ID from the git log" // move back to the content of the earlier commit
+10. git checkout master // move forward to the added content version.
