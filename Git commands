@@ -30,3 +30,15 @@ For e.g git branch dev
 Now you want all the content of the Jiga branch
 
 command: git merge Jiga
+
+15. .gitignore // The files mentioned in this file will be ignored from the entire git tracking system.
+
+Git push files to repository
+
+16. git remote -v // Outputs the location where the files will be pushed
+17. git remote add origin "The location Url"  // Add the remote origin url
+
+18. git branch -M main // Tells the compiler which branch to push the files
+19. git push -u origin main // push the files into origin named Url which belongs to main branch also known as master.
+20. git push // going further we can make use of only git push as the remote url is already been configured.
+
