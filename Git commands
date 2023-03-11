@@ -4,4 +4,13 @@ Git commands
 2. git config --global --edit // To set the name and email for the user
 3. git init // to initialise the directory/repository
 4. ls -a // List the files in the directory 
-5. git status // list all the modification or changes have been done
+5. git status // list all the modification or changes have been done        // List the files under track and commit stage
+
+
+
+Git process - working directory >>Add>> Staging >>commit>> repository 
+
+6. git commit -m "comments" //Committing a file with a comment
+7. git log // List the status of all the commit
+
+8. git add . // Adds all the files in the directory to the staging area
