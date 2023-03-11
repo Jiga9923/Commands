@@ -17,3 +17,16 @@ Git process - working directory >>Add>> Staging >>commit>> repository
 
 9. git checkout "Hash ID from the git log" // move back to the content of the earlier commit
 10. git checkout master // move forward to the added content version.
+
+11. git branch //List all the branches
+12. git branch "name" //Creates the branch by the "name"
+13. git branch -b "name" //Creates and checkout the newly created branch in the same command
+
+Current working tree : Master >> dev >> Jiga/Programs
+
+14. git merge "branch name" // Merges the two branch and so all the files and changes will be visible in the other branch as well
+
+For e.g git branch dev
+Now you want all the content of the Jiga branch
+
+command: git merge Jiga
