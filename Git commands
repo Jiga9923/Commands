@@ -1,0 +1,7 @@
+Git commands
+
+1. git --version
+2. git config --global --edit // To set the name and email for the user
+3. git init // to initialise the directory/repository
+4. ls -a // List the files in the directory 
+5. git status // list all the modification or changes have been done
