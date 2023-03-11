@@ -1,0 +1,3 @@
+Keyboard shortcuts
+
+1. CMD + ` // To switch between terminal and editor
