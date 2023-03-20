@@ -1,0 +1,36 @@
+MODEL >> VIEW >> CONTROLLER
+
+1. App_Data - Represents the database file which will be store here in this folder.
+2. App_start - Consist of multiple class files 
+               For e.g. RouteConfig.cs tells about the configuration of the route.
+               defaults: new {controller = "Home", action = "Index", id = "parameter/optional" }
+
+               BundleConfig.cs - Co nsist of all the bundles
+3. Content - Consist of all the css files
+4. Controllers 
+    all the abc controller class derive from the controller class which act as a base class
+
+5. Models - Represents and contain all our domain classes here
+            Contains all the properties and behaviours 
+
+
+6. Views -  Represents the Views
+            View name be same as the action name
+
+            Partila view - act as widget which can be use in other views as well.
+
+            view.cshtml consist of two section
+                a. cs code
+                b. html
+
+On top specify directive i.e. @model applicationname.Models.modelname
+make use of @Model.property_name
+
+7. Global.asax - contains the details of application lifecycle
+8. packageconfig - nuget package manager
+9. Startup.cs - 
+10. web.config - xml file where we mostly deal with connectstrings section & appsettings 
+
+
+
+                 
