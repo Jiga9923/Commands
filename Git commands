@@ -42,3 +42,9 @@ Git push files to repository
 19. git push -u origin main // push the files into origin named Url which belongs to main branch also known as master.
 20. git push // going further we can make use of only git push as the remote url is already been configured.
 
+
+fatal: cannot update the ref 'refs/heads/main': unable to append to '.git/logs/refs/heads/main': Permission denied
+\\ Make use of the below command to provide the appropriate rights to the user and folder when committing to another remote repo
+21. sudo chown -R jigarmodi /Users/jigarmodi/Desktop/CS  
+
+
