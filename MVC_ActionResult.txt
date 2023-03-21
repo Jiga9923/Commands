@@ -1,0 +1,16 @@
+Action result acts as an base type for other return type 
+Action results are output of action    
+
+     ○ Type                                    HelperMethod()   
+
+    ● ViewResult             -                 View()
+    ● PartialViewResult      -                 PartialView()
+    ● ContentResult          -                 Content()
+    ● Redirectresult         -                 Redirect()
+    ● RedirectToRouteResult  -                 RedirectToAction()
+    ● JsonResult             -                 Json()
+    ● FileResult             -                 File()
+    ● HttpNotFoundResult     -                 HttpNotFound()
+    ● EmptyResult
+
+Action parameters are input of actions

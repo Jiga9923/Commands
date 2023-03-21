@@ -32,5 +32,11 @@ make use of @Model.property_name
 10. web.config - xml file where we mostly deal with connectstrings section & appsettings 
 
 
+11. Custom routes can be configured in RouteConfig.cs under App_start folder
+12. Attribute routing can be enabled by using routes.MapMvcAttributeRoutes() in RouteConfig.cs
+    ● Then on top of every action we can make use of route attribute like below
+        ● [Route("College/student/{id:regex(\\d{3})}]")] 
+        ● There other route constraint which can be used
+        ● Asp.Net MVC Attribute Route Constraint
 
                  
